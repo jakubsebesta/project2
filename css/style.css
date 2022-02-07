@@ -352,6 +352,10 @@ footer .container{
         flex-basis: 100%;
     }
 
+    aside .container  a{
+        margin-left: 0;
+    }
+
     .box{
         flex-basis: 100%;
         display: block;
@@ -399,12 +403,14 @@ footer .container{
     flex-flow: column;
     justify-content: center;
     align-content: center;
+    padding-left: 0;
   }
 
   .footer_navigation ul li{
       margin:.2em 0;
       border-bottom: 1px solid rgba(0, 0, 0, 0.413);
       padding: .5em 10em;
+      text-align: center;
       
       
   }
@@ -459,6 +465,10 @@ footer .container{
         display: block;
         margin-left: 2em;
     }
+
+    aside .container h2{
+        text-align: center;
+    }
 }
 
 @media(max-width:440px){
@@ -477,6 +487,10 @@ footer .container{
 @media(max-width:340px){
     article .container{
         padding-bottom: 25em;
+    }
+
+    aside .container a{
+        text-align: center;
     }
 }
 
